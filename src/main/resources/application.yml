@@ -1,0 +1,11 @@
+app:
+  datasource:
+    jdbc-url:
+    username: postgres
+    password:
+    pool-size: 30
+  jpa:
+    show-sql: true
+    hibernate.dll-auto: create
+server:
+  port: 8081
